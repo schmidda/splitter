@@ -1,8 +1,8 @@
 Splitter is a tool for splitting TEI-Lite XML files into separate layers. By 
-default it separates out layers for <add>, <del>, <sic>, <corr>, <addr>, <expan>, 
-and also (not in TEI-Lite) <rdg>. For each layer splitter creates a file:
+default it separates out layers for add, del, sic, corr, abbrev, expan, 
+and also (not in TEI-Lite) rdg. For each layer splitter creates a file:
 
-<orig-name>-<layer><index>.xml
+&lt;orig-name&gt;-&lt;layer&gt;&lt;index&gt;.xml
 
 Splitter only recognises parallel segmentation variants, and it will assume that 
 all <rdg> elements are alternatives within the enclosing <app> element.
