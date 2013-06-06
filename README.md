@@ -5,7 +5,7 @@ and also (not in TEI-Lite) rdg. For each layer splitter creates a file:
 &lt;orig-name&gt;-&lt;layer&gt;&lt;index&gt;.xml
 
 Splitter only recognises parallel segmentation variants, and it will assume that 
-all <rdg> elements are alternatives within the enclosing <app> element.
+all &lt;rdg&gt; elements are alternatives within the enclosing &lt;app&gt; element.
 
 Splitter is a part of the calliope web service. However, it can be used also as a 
 standalone tool. For the source code see the calliope project at 
@@ -34,7 +34,7 @@ The split files will appear in the same directory and will be encoded in UTF-8.
 
 The config file allows you to specify different elements to treat than the standard 
 TEI ones, also to define different behaviours for variant-elements. However, it is 
-presently undocumemnted. The code is in 
+presently undocumented. The code is in 
 calliope/handler/post/importer/Splitter.java. 
 Specifying no config file will use 
 the existing one, which is built-into the code. There is no need to specify it on 
